@@ -24,7 +24,7 @@ inputs.forEach(function(element) {
 
 function reloadRandom(number){
 
-	number = Math.round(Math.random()*1000)
+	number = Math.round(Math.random()*100)
 	setTimeout(function(){ 
 		reloadRandom(number)
 		if(isSelected == false)
