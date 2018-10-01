@@ -28,9 +28,10 @@
 		</div>
 		<div>
 			<label for='daynight'>Jour ou nuit</label>
-			<div  class="anInput">
-			<input type='radio' id='day' name='daynight' value='Day'/> Jour
-			<input  type='radio' id='night' name='daynight' value='Night'/> Nuit
+			<div class="anInput">
+			<div class="daynight-choice"><input type='radio' id='day' name='daynight' value='Day'/> Jour</div>
+			<div class="daynight-choice"><input type='radio' id='night' name='daynight' value='Night'/> Nuit</div>
+			<div class="stopJourNuit daynight-choice"><p>Stop<p></div>
 			</div>
 		</div>
 		<div>

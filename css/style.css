@@ -25,7 +25,7 @@
 	flex: 2;	
 }
 
-.anInput input{
+.anInput .daynight-choice{
 	margin: auto;
 }
 .anInput input:first-of-type{
@@ -39,4 +39,11 @@
 .action{
 	margin: auto;
 	width: 50%
+}
+
+.stopJourNuit p{
+margin: auto;
+}
+.daynight-choice input{
+	
 }
