@@ -2,6 +2,41 @@
 
 
 
+.myForm{
+	font-size: 20px;
+	display: flex;
+}
+.myForm div{
+	width: 50%;
+}
 
 
+.myForm div>div{
+	margin: auto;
+	margin-top: 10px;
+	display: flex;
+}
+.myForm div>div label{
+	display: inline-block;
+	flex: 1.5;
+}
 
+.myForm div>div .anInput{
+	flex: 2;	
+}
+
+.anInput input{
+	margin: auto;
+}
+.anInput input:first-of-type{
+	margin-left: 0px;
+}
+.mainDiv{
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+}
+.action{
+	margin: auto;
+	width: 50%
+}

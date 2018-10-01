@@ -12,37 +12,39 @@
 	</header>
 
 
-	<form method='post' action='actions.php'>
+	<form class="myForm" method='post' action='actions.php'>
+		<div class="mainDiv">
 		<div>
 			<label for='firstname'>Prénom</label>
-			<input type='text' id='firstname' name='firstname'/>
+			<input class="anInput" type='text' id='firstname' name='firstname'/>
 		</div>
 		<div>
 			<label for='lastname'>Nom</label>
-			<input type='text' id='lastname' name='lastname'/>
+			<input  class="anInput" type='text' id='lastname' name='lastname'/>
 		</div>
 		<div>
 			<label for='date'>Date</label>
-			<input type='date' id='date' name='date'/>
+			<input  class="anInput" type='date' id='date' name='date'/>
 		</div>
 		<div>
 			<label for='daynight'>Jour ou nuit</label>
+			<div  class="anInput">
 			<input type='radio' id='day' name='daynight' value='Day'/> Jour
-			<input type='radio' id='night' name='daynight' value='Night'/> Nuit
+			<input  type='radio' id='night' name='daynight' value='Night'/> Nuit
+			</div>
 		</div>
 		<div>
 			<label for='drink'>Boisson</label>
-			<select name='drink'>
+			<select  class="anInput" name='drink'>
 				<option value=''>Choisis...</option>
 				<option value='coffee'>Café</option>
 				<option value='tea'>Thé</option>
 				<option value='chocolate'>Chocolat chaud</option>
 			</select>
 		</div>		
-
+<div>
 		<div>
-			<label for='action'></label>
-			<input type='submit' id='action' name='action' value='ok'/>
+			<input class="action" type='submit' id='action' name='action' value='ok'/>
 		</div>
 	</form>
 
